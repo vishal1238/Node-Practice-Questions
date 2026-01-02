@@ -1,0 +1,2 @@
+This is a demo file to show how zlib and stream modules work in Node.js.
+Streams are memory efficient and zlib helps in compression.

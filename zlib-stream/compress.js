@@ -6,23 +6,21 @@
 // - show the marks of those students in student who have more than 80 marks
 
 
+
 import fs from 'fs';
 import zlib from 'zlib';
-
-const fs =  require("fs");
-const zlib = require("zlib");
 
 // Create Streams
 const readStream = fs.createReadStream("input.txt");
 const writeStream = fs.createWriteStream("input.txt.gz")
 
 // Create gzip stream
-const qzip = zlib.createGzip();
+const gzip = zlib.createGzip();
 
 // Pipe streams 
 readStream
     .pipe(gzip)
     .pipe(writeStream)
     .on("finish", () => {
-        console.log("File comparessed Successfullt!");
+        console.log("File compressed Successfully!");
 });

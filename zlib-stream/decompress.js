@@ -6,7 +6,7 @@
 
 
 import fs from 'fs';
-import zlib, { gzip } from 'zlib';
+import zlib from 'zlib';
 
 // Create Streams 
 const readStream = fs.createReadStream("input.txt.gz");
