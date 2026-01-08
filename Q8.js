@@ -1,0 +1,1 @@
+// QS Implement a Node.js program that reads mutuple files asynchronously, merges their content, and saves the resutt into a single output file using Promises and async/await.
