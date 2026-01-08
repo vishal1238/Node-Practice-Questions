@@ -1,0 +1,1 @@
+// Implement a custom express middleware that logs request method, URL and timeStamp for every incoming request. Apply the middleware globally using appendFile.use();
