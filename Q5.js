@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
         Name: <input type="text" name="name" required><br><br>
         email: <input type="text" name="email" required><br><br>
         password: <input type="text" name="password" required><br><br>
-        
+         
         <button type="submit">Register</button>
         </form>
     `);
